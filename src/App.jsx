@@ -10,6 +10,7 @@ import About from "./pages/about/About";
 import Explore from "./pages/explore/HistoricRoads";
 import CulturalRoutes from "./pages/explore/CulturalRoutes";
 import CulturalElements from "./pages/explore/CulturalElements";
+import Transhumance from "./pages/explore/Transhumance";
 
 import Identification from "./pages/identification/Identification";
 import Classification from "./pages/identification/Classification";
@@ -96,6 +97,11 @@ function App() {
               path: "culturalelements/details",
               element: <DetailMapCE />,
             },
+            {
+              path: "transhumance",
+              element: <Transhumance />,
+            },
+
             {
               path: "culturalelements/detailsMap/:mapId",
               element: <DetailMapCE />,

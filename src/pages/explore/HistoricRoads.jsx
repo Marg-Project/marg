@@ -8,6 +8,8 @@ const HistoricRoads = () => {
     { link: "/explore/culturalroutes", name: "Cultural Routes" },
     { link: "/explore/railwayroutes", name: "Railway Routes" },
     { link: "/explore/culturalelements", name: "Cultural Elements" },
+    { link: "/explore/Transhumance", name: "Transhumance" },
+
   ];
   return (
     <div className="font-['Open_Sans'] flex flex-wrap gap-12 items-center justify-center place-content-center">
